@@ -40,7 +40,7 @@ for (let drawSection of canvas) {
 
 
 
-        setTimeout(game, 1000 / 7)
+        setTimeout(game, 1000 / speed)
     }
     document.addEventListener("keydown", keydown);
 
